@@ -1,0 +1,22 @@
+The "JugglerSequence.java" file contains Java code for generating the Juggler Sequence for a given positive integer. The Juggler Sequence is a series of numbers derived from a starting positive integer using a specific rule until the sequence reaches 1.
+
+
+  Explanation:
+
+The jugglerSequence method takes a positive integer n as input and returns a list of numbers representing the Juggler Sequence starting from n and ending at 1.
+
+We initialize an empty list called sequence to store the sequence of numbers.
+
+We add the initial number n to the sequence list.
+
+We use a while loop to continue generating the sequence until n becomes 1.
+
+Inside the loop:
+
+If the current number n is even, we calculate its square root and assign it back to n.
+If the current number n is odd, we calculate the square of its square root and assign it back to n.
+We add the new value of n to the sequence list.
+Once n becomes 1, the loop terminates.
+
+Finally, we return the sequence list containing the entire Juggler Sequence.
+

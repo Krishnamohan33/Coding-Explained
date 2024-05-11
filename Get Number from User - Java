@@ -1,0 +1,33 @@
+import java.util.*;
+
+class Main {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);  // Create a Scanner object to read input from the console
+        int n = sc.nextInt();  // Read an integer input from the console and store it in variable 'n'
+        System.out.println(n);  // Print the value of 'n' to the console
+    }
+}
+
+
+Import Statements:
+
+import java.util.*;: This statement imports all classes in the java.util package, which includes the Scanner class.
+Class Declaration:
+
+class Main { ... }: This is the declaration of the Main class, which contains the main method where the program execution begins.
+Main Method:
+
+public static void main(String args[]) { ... }: This is the main method, where the execution of the program starts.
+Scanner sc = new Scanner(System.in);: This line creates a new Scanner object named 'sc', which is used to read input from the console (System.in).
+int n = sc.nextInt();: This line reads an integer input from the console using the nextInt() method of the Scanner class and stores it in the variable 'n'.
+System.out.println(n);: This line prints the value of 'n' to the console using the println() method of the System.out object.
+Input and Output:
+
+The program prompts the user to enter an integer value through the console.
+It reads the entered integer value using the Scanner object.
+Then, it prints the entered integer value back to the console.
+Execution:
+
+To execute this program, compile the Java file (Main.java) using a Java compiler (javac Main.java).
+Then, run the compiled class file (Main.class) using the Java interpreter (java Main).
+Upon execution, the program will prompt the user to enter an integer, read the input, and print it back to the console.
